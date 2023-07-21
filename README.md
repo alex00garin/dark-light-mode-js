@@ -1,1 +1,1 @@
-# dark-light-mode-js
+Basic Dark and Light mode with HTML CSS and JAvaScript
