@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dark-light.css">
+</head>
+<body>
+    
+  <header>
+    <h1>Dark/Light Mode Demo</h1>
+    <button id="toggleMode">Toggle Mode</button>
+  </header>
+
+  <main>
+    <section>
+        <h2>Content</h2>
+    </section>
+  </main>
+
+  <script>
+    //dark light mode
+    const toggleModeButton = document.getElementById('toggleMode');
+    const root = document.documentElement;
+
+    function toggleDarkLightMode() {
+        root.classList.toggle('dark-mode');
+    }
+
+    toggleModeButton.addEventListener('click', toggleDarkLightMode);
+
+  </script>
+
+</body>
+</html>
